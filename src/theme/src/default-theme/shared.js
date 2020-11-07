@@ -12,13 +12,13 @@ const defaultControlStyles = {
   },
   base: {
     backgroundColor: 'white',
-    backgroundImage: linearGradient('#FFFFFF', '#F4F5F7'),
+    backgroundImage: linearGradient('#FFFFFF', '#FFFFFF'),
     boxShadow: `inset 0 0 0 1px ${scales.neutral.N4A}, inset 0 -1px 1px 0 ${
       scales.neutral.N2A
     }`
   },
   hover: {
-    backgroundImage: linearGradient('#FAFBFB', '#EAECEE')
+    backgroundImage: linearGradient('#F7F8FA', '#F7F8FA')
   },
   focus: {
     boxShadow: `0 0 0 3px ${scales.blue.B4A}, inset 0 0 0 1px ${

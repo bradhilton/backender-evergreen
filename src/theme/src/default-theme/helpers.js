@@ -70,7 +70,7 @@ const getPrimaryButtonStylesForIntent = intent => {
       const startColor = '#23C277'
       const endColor = '#399D6C'
       return {
-        linearGradient: getLinearGradientWithStates(startColor, endColor),
+        linearGradient: getLinearGradientWithStates(startColor, startColor),
         focusColor: tinycolor(startColor)
           .setAlpha(0.4)
           .toString()
@@ -81,7 +81,7 @@ const getPrimaryButtonStylesForIntent = intent => {
       const startColor = '#EE9913'
       const endColor = '#D9822B'
       return {
-        linearGradient: getLinearGradientWithStates(startColor, endColor),
+        linearGradient: getLinearGradientWithStates(startColor, startColor),
         focusColor: tinycolor(startColor)
           .setAlpha(0.4)
           .toString()
@@ -92,7 +92,7 @@ const getPrimaryButtonStylesForIntent = intent => {
       const startColor = '#EC4C47'
       const endColor = '#D64540'
       return {
-        linearGradient: getLinearGradientWithStates(startColor, endColor),
+        linearGradient: getLinearGradientWithStates(startColor, startColor),
         focusColor: tinycolor(startColor)
           .setAlpha(0.4)
           .toString()
@@ -103,7 +103,7 @@ const getPrimaryButtonStylesForIntent = intent => {
       const startColor = '#0788DE'
       const endColor = '#116AB8'
       return {
-        linearGradient: getLinearGradientWithStates(startColor, endColor),
+        linearGradient: getLinearGradientWithStates(startColor, startColor),
         focusColor: tinycolor(startColor)
           .setAlpha(0.4)
           .toString()
