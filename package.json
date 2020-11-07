@@ -31,7 +31,7 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "test": "xo && ava",
+    "test": "ava",
     "prepublishOnly": "rm -rf esm commonjs umd && yarn build",
     "dev": "start-storybook -p 6006",
     "create-package": "./tools/create-package.js",
