@@ -9,7 +9,6 @@ const defaultAppearance = Themer.createCheckboxAppearance({
   base: {
     color: 'white',
     backgroundColor: 'white',
-    backgroundImage: `linear-gradient(to top, ${scales.neutral.N2A}, white)`,
     boxShadow: `inset 0 0 0 1px ${scales.neutral.N4A}, inset 0 -1px 1px 0 ${
       scales.neutral.N3A
     }`
@@ -21,9 +20,7 @@ const defaultAppearance = Themer.createCheckboxAppearance({
     backgroundImage: 'none'
   },
   hover: {
-    backgroundImage: `linear-gradient(to top, ${scales.neutral.N2A}, ${
-      scales.neutral.N1A
-    })`,
+    backgroundColor: scales.neutral.N2A,
     boxShadow: `inset 0 0 0 1px ${scales.neutral.N4A}, inset 0 -1px 1px 0 ${
       scales.neutral.N2A
     }`

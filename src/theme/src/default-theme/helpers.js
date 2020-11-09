@@ -1,6 +1,8 @@
 import tinycolor from 'tinycolor2'
 import { Intent } from '../../../constants'
 import colors from './foundational-styles/colors'
+import palette from './foundational-styles/palette'
+import scales from './foundational-styles/scales'
 
 /**
  * @param {String} top - color.
@@ -67,7 +69,7 @@ const getLinearGradientWithStates = (
 const getPrimaryButtonStylesForIntent = intent => {
   switch (intent) {
     case Intent.SUCCESS: {
-      const startColor = '#23C277'
+      const startColor = palette.green.base
       const endColor = '#399D6C'
       return {
         linearGradient: getLinearGradientWithStates(startColor, startColor),
@@ -89,7 +91,7 @@ const getPrimaryButtonStylesForIntent = intent => {
     }
 
     case Intent.DANGER: {
-      const startColor = '#EC4C47'
+      const startColor = palette.red.base
       const endColor = '#D64540'
       return {
         linearGradient: getLinearGradientWithStates(startColor, startColor),
@@ -100,7 +102,7 @@ const getPrimaryButtonStylesForIntent = intent => {
     }
 
     default: {
-      const startColor = '#0788DE'
+      const startColor = scales.blue.B8
       const endColor = '#116AB8'
       return {
         linearGradient: getLinearGradientWithStates(startColor, startColor),
